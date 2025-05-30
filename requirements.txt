@@ -22,3 +22,5 @@ tiktoken
 
 # HTTP requests
 requests
+
+uvicorn
