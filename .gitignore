@@ -1,0 +1,48 @@
+# Bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+env/
+*.egg-info/
+*.egg
+
+# Environment & system
+.DS_Store
+*.log
+*.sqlite3
+*.db
+
+# VSCode + PyCharm
+.vscode/
+.idea/
+
+# Python notebooks
+*.ipynb_checkpoints/
+
+# Azure-specific artifacts
+backend.zip
+
+# Secrets & credentials
+.env
+.env.*
+
+# Node.js (if used in frontend)
+node_modules/
+dist/
+build/
+*.lock
+
+# Flask cache
+instance/
+*.pid
+*.bak
+
+# Git
+.git/
+
+# Ignore scraped data
+data/scraped_data_async/
+data/*.jsonl.gz
+data/*.db
